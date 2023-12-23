@@ -58,16 +58,16 @@
 
 | Name | Description | Example |
 | ------------ | -------------------- | ------------ |
-| `MANIFEST_URL` | Source address | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
-| `MANIFEST_BRANCH` | Source branch | twrp-12.1 |
-| `DEVICE_TREE_URL` | Device address | https://github.com/TeamWin/android_device_asus_I003D |
-| `DEVICE_TREE_BRANCH` | Device branch | android-12.1 |
-| `DEVICE_PATH` | Device location | device/asus/I003D |
-| `COMMON_TREE_URL` | Common tree address | https://github.com/TeamWin/android_device_asus_sm8250-common |
-| `COMMON_PATH` | Common tree location | device/asus/sm8250-common |
-| `DEVICE_NAME` | Model name | I003D |
-| `MAKEFILE_NAME` | Makefile name | twrp_I003D |
-| `BUILD_TARGET` | Build Target Partition (boot/recovery/vendorboot) | recovery |
+| `MANIFEST_URL` | 源码地址 | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
+| `MANIFEST_BRANCH` | 源码分支 | twrp-12.1 |
+| `DEVICE_TREE_URL` | 设备树地址 | https://github.com/TeamWin/android_device_asus_I003D |
+| `DEVICE_TREE_BRANCH` | 设备树分支 | android-12.1 |
+| `DEVICE_PATH` | 设备位置 | device/asus/I003D |
+| `COMMON_TREE_URL` | 通用设备树地址 | https://github.com/TeamWin/android_device_asus_sm8250-common |
+| `COMMON_PATH` | 通用设备地址 | device/asus/sm8250-common |
+| `DEVICE_NAME` | 机型名称 | I003D |
+| `MAKEFILE_NAME` | 编译文件名 | twrp_I003D |
+| `BUILD_TARGET` | 建立目标分区 (boot/recovery/vendorboot) | recovery |
 
 -----
 
@@ -122,11 +122,10 @@ cat ssh_host_ed25519_key
 
 -----
 
-## Compilation results
-Can be downloaded at [Release](../../releases)
+## 编译结果
+可以在以下网址下载 [Release](../../releases)
 
 -----
-## Remark
+## 注释
 
 #### TeamWin Recovery Project: https://github.com/minimal-manifest-twrp
-#### SKYHAWK Recovery Project: https://github.com/SHRP/manifest
