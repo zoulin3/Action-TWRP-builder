@@ -1,10 +1,10 @@
-# Use Github Action to compile Recovery
+# 使用Github Action编译Recovery
 
-- Support TWRP, SHRP compilation and production
+- 支持TWRP、SHRP编译和制作
 
 ---
 
-## Python 2 in Debian (Ubuntu) has been removed. If you are working on Android 8.1 and below, use *Recovery Build (Legacy)*
+## Debian (Ubuntu) 中的 Python 2 已被删除。 如果您使用的是 Android 8.1 及更低版本，请使用 *Recovery Build (Legacy)*
 
 ---
 
